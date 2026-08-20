@@ -1,8 +1,8 @@
 # 🛍️ Customer Shopping Behavior Analysis
 
-An end-to-end data analytics project focused on understanding customer shopping behavior using **Python, SQL, and Power BI**.
+An end-to-end **data analytics project** focused on understanding customer shopping behavior using **Python, SQL, and Power BI**.
 
-This project demonstrates the complete analytics workflow — from raw data preparation and exploratory analysis to SQL-based business analysis and interactive dashboard development.
+This project demonstrates a complete analytics workflow — from data preparation and exploratory analysis to SQL-based business analysis and interactive dashboard development.
 
 ---
 
@@ -40,7 +40,7 @@ The dataset includes information related to customer demographics, shopping acti
 
 ### Data Preparation
 
-The raw dataset was inspected and cleaned before analysis.
+The dataset was inspected and prepared before analysis.
 
 The workflow included:
 
@@ -48,13 +48,13 @@ The workflow included:
 * Identifying missing values
 * Reviewing data types
 * Cleaning and preparing columns
-* Creating a cleaned dataset for further analysis
+* Preparing the data for further analysis
 
 ---
 
 ## 🐍 Python Analysis
 
-Python was used for data preparation, exploration, and analysis.
+Python was used for data preparation, exploratory analysis, and visualization.
 
 ### Libraries Used
 
@@ -81,19 +81,19 @@ Insights
 
 The complete Python analysis is available in:
 
-`notebooks/Customer_Shopping_Behavior_Analysis.ipynb`
+`Customer_Shopping_Behavior_Analysis.ipynb`
 
 ---
 
 ## 🗄️ SQL Analysis
 
-SQL was used to perform structured business analysis on the customer shopping dataset.
+SQL was used to perform structured, business-oriented analysis of the customer shopping dataset.
 
-The SQL analysis focuses on extracting useful information from the data and answering business-oriented questions.
+The SQL analysis focuses on extracting useful information from the data and answering business-related questions.
 
 The complete SQL queries are available in:
 
-`sql/CustomerShoppingAnalysis.sql`
+`CustomerShoppingAnalysis.sql`
 
 ---
 
@@ -101,15 +101,11 @@ The complete SQL queries are available in:
 
 An interactive Power BI dashboard was created to present the analyzed customer shopping data in a visual and easy-to-understand format.
 
-The dashboard helps transform the analytical results into a business-friendly view.
+The dashboard transforms analytical results into a business-friendly visual experience.
 
-The Power BI file is available in:
+The Power BI project file is available in:
 
-`powerbi/Customer_Shopping_Dashboard.pbix`
-
-### Dashboard Preview
-
-![Power BI Dashboard](images/dashboard.png)
+`Customer_Shopping_Dashboard(1).pbix`
 
 ---
 
@@ -148,22 +144,9 @@ The project explores customer shopping behavior across areas such as:
 customer-shopping-behavior-analysis/
 │
 ├── README.md
-│
-├── data/
-│   ├── customer_shopping_behavior.csv
-│   └── customer_shopping_behavior_cleaned.csv
-│
-├── notebooks/
-│   └── Customer_Shopping_Behavior_Analysis.ipynb
-│
-├── sql/
-│   └── CustomerShoppingAnalysis.sql
-│
-├── powerbi/
-│   └── Customer_Shopping_Dashboard.pbix
-│
-└── images/
-    └── dashboard.png
+├── Customer_Shopping_Behavior_Analysis.ipynb
+├── CustomerShoppingAnalysis.sql
+└── Customer_Shopping_Dashboard(1).pbix
 ```
 
 ---
